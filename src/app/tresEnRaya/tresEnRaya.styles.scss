@@ -1,0 +1,75 @@
+tres-en-raya {
+  display: block;
+  color: #ffffff;
+  background-color: #141414;
+}
+
+.game-container {
+  .game-title{
+    padding-bottom: 2%;
+
+    .badge-secondary{
+      i.player-o{
+        color: #0ca722;
+      }
+
+      i.player-x{
+        color: #b35108;
+      }
+    }
+  }
+
+  .game-reset-button{
+    cursor: pointer;
+
+    :hover{
+      color: grey;
+    }
+  }
+
+  margin: 6% 15% 0 15%;
+  .game-grid{
+    .board{
+      margin: 0 auto;
+      width: 100%;
+      tr{
+        td{
+          cursor: pointer;
+          padding: 2%;
+          border: 6px solid #ffffff;
+          text-align: center;
+          width: 33.333%;
+          margin: 0 auto;
+          color: white;
+          i.player-o{
+            color: #0ca722;
+          }
+
+          i.player-x{
+            color: #b35108;
+          }
+
+          i.empty{
+            color: #141414 !important;
+          }
+        }
+      }
+
+      tr:first-child td{
+        border-top: none;
+      }
+
+      tr:last-child td{
+        border-bottom: none;
+      }
+
+      tr td:first-child{
+        border-left: none;
+      }
+
+      tr td:last-child{
+        border-right: none;
+      }
+    }
+  }
+}

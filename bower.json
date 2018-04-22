@@ -1,0 +1,58 @@
+{
+  "name": "Tres en raya mini Game",
+  "description": "Proyecto tres en raya",
+  "repository": {},
+  "keywords": [
+    "angular",
+    "angular-locales",
+    "angularjs",
+    "autoprefixer",
+    "babel",
+    "boilerplate",
+    "bower",
+    "browsersync",
+    "concatenation",
+    "es2015",
+    "es6",
+    "eslint",
+    "esnext",
+    "gulp",
+    "i18n",
+    "internationalization",
+    "l10n",
+    "lint",
+    "localization",
+    "minimisation",
+    "sass",
+    "seed",
+    "skeleton",
+    "sourcemaps",
+    "uglification",
+    "ugify",
+    "watch"
+  ],
+  "authors": [
+    "Jesus Gomez"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-dynamic-locale": "^0.1.35",
+    "angular-i18n": "^1.6.9",
+    "angular-translate": "^2.17.1",
+    "angular-translate-handler-log": "^2.17.1",
+    "angular-translate-loader-static-files": "^2.17.1",
+    "angular-ui-router": "^1.0.15",
+    "normalize-css": "^8.0.0",
+    "angular-bootstrap": "^2.5.0",
+    "components-font-awesome": "^5.0.6",
+    "roboto-fontface": "^0.9.0",
+    "bootstrap": "^4.1.0",
+    "bootstrap-sass": "^3.3.7",
+    "ngToast": "ngtoast#^2.0.0"
+  },
+  "resolutions": {
+    "angular": "^1.6.9"
+  }
+}
